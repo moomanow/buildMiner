@@ -12,7 +12,7 @@
 #      screen -r line 
 #Config
 
-LINE_TOKEN='QDGmqJNngaQjrUr4ncebtZz8ImAT04dFp5qTWfFxFbW' #Line Token ID
+LINE_TOKEN='' #Line Token ID
 LINE_MINER='Rig1080'
 MINER_API="localhost 4068"
 NOTIFY_LOOP_MINUTE="30" # Send notify every 30 minutes
