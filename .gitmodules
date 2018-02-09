@@ -10,3 +10,12 @@
 [submodule "klaust/ccminer"]
 	path = klaust/ccminer
 	url = https://github.com/KlausT/ccminer.git
+[submodule "ccminer-xevan/ccminer"]
+	path = ccminer-xevan/ccminer
+	url = https://github.com/krnlx/ccminer-xevan.git
+[submodule "ccminer-phi-anxmod/ccminer"]
+	path = ccminer-phi-anxmod/ccminer
+	url = https://github.com/nemosminer/ccminer-phi-anxmod.git
+[submodule "nanashi/ccminer"]
+	path = nanashi/ccminer
+	url = https://github.com/Nanashi-Meiyo-Meijin/ccminer.git
