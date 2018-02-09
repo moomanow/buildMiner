@@ -4,18 +4,24 @@
 
 # export PATH="$PATH:/usr/local/cuda/bin/"
 cd tpruvot/ccminer/
-make distclean || echo clean
-
-rm -f Makefile.in
-rm -f config.status
-./autogen.sh || echo done
-
-# CFLAGS="-O2" ./configure
-#./configure.sh
-extracflags="-march=native -D_REENTRANT -falign-functions=16 -falign-jumps=16 -falign-labels=16"
-
-CUDA_CFLAGS="-O3 -lineno -Xcompiler -Wall  -D_FORCE_INLINES" \
-        ./configure CXXFLAGS="-O3 $extracflags" --with-cuda=/usr/local/cuda-9.1 --with-nvml=libnvidia-ml.so
-
-make -j 4
+sh build.sh
+cd -
+cd ccminer-phi-anxmod/ccminer/
+sh build.sh
+cd -
+cd ccminer-xevan/ccminer/
+sh build.sh
+cd -
+cd klaust/ccminer/
+sh build.sh
+cd -
+cd tpruvot/ccminer/
+sh build.sh
+cd -
+cd nemosminer/ccminer/
+sh build.sh
+cd -
+cd sp-hash/ccminer/
+sh build.sh
+cd -
 
