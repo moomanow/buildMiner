@@ -1,0 +1,3 @@
+[submodule "tpruvot/ccminer"]
+	path = tpruvot/ccminer
+	url = https://github.com/tpruvot/ccminer.git
