@@ -32,7 +32,7 @@ cd klaust/ccminer/
 sh build.sh
 cp ccminer ..
 cd -
-cd tpruvot/ccminer/
+cd nanashi/ccminer/
 sh build.sh
 cp ccminer ..
 cd -
