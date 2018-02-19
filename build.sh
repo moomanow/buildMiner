@@ -21,29 +21,29 @@ cd -
 cd ccminer-phi-anxmod/ccminer/
 chmod +x ./autogen.sh
 sh build.sh
-cp ccminer ..
+cp ccminer ../ccminer-run
 cd -
 cd ccminer-xevan/ccminer/
 #ccminer.cpp:45:26: fatal error: cuda_runtime.h: No such file or directory
 sh build.sh
-cp ccminer ..
+cp ccminer ../ccminer-run
 cd -
 cd klaust/ccminer/
 sh build.sh
-cp ccminer ..
+cp ccminer ../ccminer-run
 cd -
 cd nanashi/ccminer/
 sh build.sh
-cp ccminer ..
+cp ccminer ../ccminer-run
 cd -
 cd nemosminer/ccminer/
 sh build.sh
-cp ccminer ..
+cp ccminer ../ccminer-run
 cd -
 cd sp-hash/ccminer/
 #remove compute_20 MakeFile.am
 sed -i 's/-gencode=arch=compute_20,code=\\"sm_21,compute_20\\"//g' Makefile.am
 sh build.sh
-cp ccminer ..
+cp ccminer ../ccminer-run
 cd -
 
