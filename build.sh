@@ -16,7 +16,7 @@ git submodule foreach git pull
 ###########################################
 cd tpruvot/ccminer/
 sh build.sh
-cp ccminer ..
+cp ccminer ../ccminer-run
 cd -
 cd ccminer-phi-anxmod/ccminer/
 chmod +x *.sh
