@@ -32,7 +32,7 @@ cd nemosminer/ccminer/
 sh build.sh
 cd -
 cd sp-hash/ccminer/
-#remove compute_20 MakeFile.in
+#remove compute_20 MakeFile.am
 sh build.sh
 cd -
 
