@@ -3,6 +3,7 @@
 # Simple script to create the Makefile and build
 
 # export PATH="$PATH:/usr/local/cuda/bin/"
+sudo ln -s /usr/local/cuda-9.1/ /usr/local/cuda
 sudo apt-get -y install libssl-dev
 sudo apt-get -y install libcurl4-openssl-dev
 sudo apt-get -y install libjansson-dev
