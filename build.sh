@@ -20,6 +20,7 @@ cp ccminer ..
 cd -
 cd ccminer-phi-anxmod/ccminer/
 chmod +x ./autogen.sh
+chmod +x build.sh
 sh build.sh
 cp ccminer ../ccminer-run
 cd -
