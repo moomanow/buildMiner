@@ -15,9 +15,11 @@ cd tpruvot/ccminer/
 sh build.sh
 cd -
 cd ccminer-phi-anxmod/ccminer/
+chmod +x ./autogen.sh
 sh build.sh
 cd -
 cd ccminer-xevan/ccminer/
+#ccminer.cpp:45:26: fatal error: cuda_runtime.h: No such file or directory
 sh build.sh
 cd -
 cd klaust/ccminer/
@@ -30,6 +32,7 @@ cd nemosminer/ccminer/
 sh build.sh
 cd -
 cd sp-hash/ccminer/
+#remove compute_20 MakeFile.in
 sh build.sh
 cd -
 
