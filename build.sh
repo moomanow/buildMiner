@@ -9,7 +9,7 @@ sudo apt-get -y install libcurl4-openssl-dev
 sudo apt-get -y install libjansson-dev
 sudo apt-get -y install automake
 git submodule init
-git submodule foreach reset --hrad
+git submodule foreach git reset --hard
 git submodule update
 git submodule foreach git pull
 
