@@ -43,6 +43,7 @@ sh build.sh
 cp ccminer ../ccminer-run
 cd -
 cd nanashi/ccminer/
+sed -i 's/device_functions_decls.h/device_functions.h/g' equi/eqcuda.hpp
 sh build.sh
 cp ccminer ../ccminer-run
 cd -
