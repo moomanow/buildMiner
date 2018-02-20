@@ -11,9 +11,13 @@
 #      screen -dmS line bash ./CCMiner_LineNotify
 #      screen -r line 
 #Config
+if ! source ~/settings.conf; then
+        echo "FAILURE: Can not load global settings 'settings.conf'"
+        exit 9
+fi
 
-LINE_TOKEN='' #Line Token ID
-LINE_MINER='Rig1080'
+LINE_TOKEN='$MY_LINE_ID' #Line Token ID
+LINE_MINER='$MY_RIG'
 MINER_API="localhost 4068"
 NOTIFY_LOOP_MINUTE="30" # Send notify every 30 minutes
 
