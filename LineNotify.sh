@@ -16,8 +16,8 @@ if ! source ~/settings.conf; then
         exit 9
 fi
 
-LINE_TOKEN='$MY_LINE_ID' #Line Token ID
-LINE_MINER='$MY_RIG'
+LINE_TOKEN="$MY_LINE_ID" #Line Token ID
+LINE_MINER="$MY_RIG"
 MINER_API="localhost 4068"
 NOTIFY_LOOP_MINUTE="30" # Send notify every 30 minutes
 
