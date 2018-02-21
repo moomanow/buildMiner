@@ -15,6 +15,23 @@ git submodule update
 git submodule foreach git pull
 
 ###########################################
+cd alexis78/ccminer/
+#ccminer.cpp:45:26: fatal error: cuda_runtime.h: No such file or directory
+make distclean || echo clean
+
+rm -f Makefile.in
+rm -f config.status
+./autogen.sh || echo done
+
+extracflags="-march=native -D_REENTRANT -falign-functions=16 -falign-jumps=16 -falign-labels=16"
+CUDA_CFLAGS="-O3 -lineno -Xcompiler -Wall -D_FORCE_INLINES" ./configure CXXFLAGS="-O3 $extracflags" --with-cuda=/usr/local/cuda --with-nvml=libnvidia-ml.so
+#sh build.sh
+
+make -j 6
+
+cp ccminer ../ccminer-run
+cd -
+
 cd tpruvot/ccminer/
 sh build.sh
 cp ccminer ../ccminer-run
