@@ -31,16 +31,28 @@ CUDA_CFLAGS="-O3 -lineno -Xcompiler -Wall -D_FORCE_INLINES" ./configure CXXFLAGS
 make -j 6
 
 cp ccminer ../ccminer-run
+make distclean || echo clean
+
+rm -f Makefile.in
+rm -f config.status
 cd -
 
 cd tpruvot/ccminer/
 sh build.sh
 cp ccminer ../ccminer-run
+make distclean || echo clean
+
+rm -f Makefile.in
+rm -f config.status
 cd -
 cd ccminer-phi-anxmod/ccminer/
 chmod +x *.sh
 sh build.sh
 cp ccminer ../ccminer-run
+make distclean || echo clean
+
+rm -f Makefile.in
+rm -f config.status
 cd -
 cd ccminer-xevan/ccminer/
 #ccminer.cpp:45:26: fatal error: cuda_runtime.h: No such file or directory
@@ -56,15 +68,27 @@ CUDA_CFLAGS="-O3 -lineno -Xcompiler -Wall -D_FORCE_INLINES" ./configure CXXFLAGS
 
 make -j 6
 cp ccminer ../ccminer-run
+make distclean || echo clean
+
+rm -f Makefile.in
+rm -f config.status
 cd -
 cd klaust/ccminer/
 sh build.sh
 cp ccminer ../ccminer-run
+make distclean || echo clean
+
+rm -f Makefile.in
+rm -f config.status
 cd -
 cd nanashi/ccminer/
 sed -i 's/device_functions_decls.h/device_functions.h/g' equi/eqcuda.hpp
 sh build.sh
 cp ccminer ../ccminer-run
+make distclean || echo clean
+
+rm -f Makefile.in
+rm -f config.status                                                                               
 cd -
 cd nemosminer/ccminer/
 #sh build.sh
@@ -80,11 +104,19 @@ CUDA_CFLAGS="-O3 -lineno -Xcompiler -Wall -D_FORCE_INLINES" ./configure CXXFLAGS
 
 make -j 6
 cp ccminer ../ccminer-run
+make distclean || echo clean
+
+rm -f Makefile.in
+rm -f config.status
 cd -
 cd sp-hash/ccminer/
 #remove compute_20 MakeFile.am
 sed -i 's/-gencode=arch=compute_20,code=\\"sm_21,compute_20\\"//g' Makefile.am
 sh build.sh
 cp ccminer ../ccminer-run
+make distclean || echo clean
+
+rm -f Makefile.in
+rm -f config.status
 cd -
 
