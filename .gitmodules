@@ -25,3 +25,6 @@
 [submodule "MSFTserver/ccminer"]
 	path = MSFTserver/ccminer
 	url = https://github.com/MSFTserver/ccminer.git
+[submodule "krnlx/ccminer"]
+	path = krnlx/ccminer
+	url = https://github.com/krnlx/ccminer-xevan.git
