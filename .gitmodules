@@ -22,3 +22,6 @@
 [submodule "alexis78/ccminer"]
 	path = alexis78/ccminer
 	url = https://github.com/alexis78/ccminer.git
+[submodule "MSFTserver/ccminer"]
+	path = MSFTserver/ccminer
+	url = https://github.com/MSFTserver/ccminer.git
