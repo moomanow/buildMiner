@@ -28,3 +28,6 @@
 [submodule "krnlx/ccminer"]
 	path = krnlx/ccminer
 	url = https://github.com/krnlx/ccminer-xevan.git
+[submodule "216k155/ccminer"]
+	path = 216k155/ccminer
+	url = https://github.com/216k155/ccminer-phi-anxmod.git
