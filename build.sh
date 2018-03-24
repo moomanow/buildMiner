@@ -27,4 +27,6 @@ bash man-build.sh klaust
 bash man-build.sh MSFTserver
 bash man-build.sh nemosminer
 bash man-build.sh sp-hash
-
+bash man-build.sh djm34
+bash man-build.sh phasiclabs
+bash man-build.sh todd1251
