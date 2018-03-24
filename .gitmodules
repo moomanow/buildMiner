@@ -31,3 +31,12 @@
 [submodule "216k155/ccminer"]
 	path = 216k155/ccminer
 	url = https://github.com/216k155/ccminer-phi-anxmod.git
+[submodule "djm34/ccminer"]
+	path = djm34/ccminer
+	url = https://github.com/djm34/ccminer-msvc2015.git
+[submodule "phasiclabs/ccminer"]
+	path = phasiclabs/ccminer
+	url = https://github.com/phasiclabs/ccminer-x16r.git
+[submodule "todd1251/ccminer"]
+	path = todd1251/ccminer
+	url = https://github.com/todd1251/ccminer-x16r.git
