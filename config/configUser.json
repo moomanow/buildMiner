@@ -1,0 +1,25 @@
+{
+	"workername": "worker",
+	"minerKey":"",
+	"type": [
+		"nvida"
+	],
+	"address": {
+		"BTC":"3B3uQUKrR4EHNpd56zkrkQFAWB6Erq3bTB",
+		"XVG":"DHNSZnuC9j9EHg1HR96LhRypgUHJ1ucJxn",
+		"BLAS":"BkzR6kGcsT3o8dXyYhyGibVVLz2mXHwuGF"
+		}
+	,
+	"pools": [
+		"zpool"
+	],
+	"alg": [
+		"hmq1725"
+		,"blake2s"
+		,"neoscrypt"
+	],
+	"coins": [
+		"XVG"
+		,"BLAS"
+	]
+}
