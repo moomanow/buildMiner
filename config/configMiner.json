@@ -33,16 +33,7 @@
                         "x11evo",
                         "x17"
                 ],
-                "progame": "ccminer-run"
-        },
-        {
-                "minerName": "CcminerHsr",
-                "appMinerType": "ccminer",
-                "alg": [
-                        "hsr"
-                        ,"blake2s"
-                ],
-                "progame": "ccminer-run"
+                "progame": "./tpruvot/ccminer-run"
         },
         {
                 "minerName": "KlausT",
@@ -52,7 +43,7 @@
                         "neoscrypt",
                         "groestl"
                 ],
-                "progame": "ccminer-run"
+                "progame": "./klaust/ccminer-run"
         },
         {
                 "minerName": "CcminerXevan",
@@ -60,6 +51,6 @@
                 "alg": [
                         "xevan"
                 ],
-                "progame": "ccminer-run"
+                "progame": "./ccminer-xevan/ccminer-run"
         }
 ]
