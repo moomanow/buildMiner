@@ -1,0 +1,65 @@
+[
+        {
+                "minerName": "tpruvot",
+                "appMinerType": "ccminer",
+                "alg": [
+                        "bitcore",
+                        "blake2s",
+                        "blakecoin",
+                        "vanilla",
+                        "c11",
+                        "cryptonight",
+                        "decred",
+                        "equihash",
+                        "groestl",
+                        "hmq1725",
+                        "jha",
+                        "keccak",
+                        "lbry",
+                        "lyra2v2",
+                        "lyra2z",
+                        "myr-gr",
+                        "neoscrypt",
+                        "nist5",
+                        "pascal",
+                        "phi",
+                        "sia",
+                        "sib",
+                        "skein",
+                        "skunk",
+                        "timetravel",
+                        "tribus",
+                        "veltor",
+                        "x11evo",
+                        "x17"
+                ],
+                "progame": "ccminer-run"
+        },
+        {
+                "minerName": "CcminerHsr",
+                "appMinerType": "ccminer",
+                "alg": [
+                        "hsr"
+                        ,"blake2s"
+                ],
+                "progame": "ccminer-run"
+        },
+        {
+                "minerName": "KlausT",
+                "appMinerType": "ccminer",
+                "alg": [
+                        "myr-gr",
+                        "neoscrypt",
+                        "groestl"
+                ],
+                "progame": "ccminer-run"
+        },
+        {
+                "minerName": "CcminerXevan",
+                "appMinerType": "ccminer",
+                "alg": [
+                        "xevan"
+                ],
+                "progame": "ccminer-run"
+        }
+]
