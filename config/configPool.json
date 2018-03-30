@@ -1,0 +1,11 @@
+[
+	{
+		"poolApi": "http://www.zpool.ca/api",
+		"name": "zpool",
+		"poolType": "yaamp",
+		"userFormat": "address",
+		"passwordFormat": "user.workerName+\",c=\"+coin",
+		"hostFormat": "(coin==\"BTC\"?pool.data.status[alg].name:pool.data.currencies[coin].algo)+\".mine.zpool.ca\"",
+		"portFormat": "coin==\"BTC\"?pool.data.status[alg].port:pool.data.currencies[coin].port"
+	}
+]
