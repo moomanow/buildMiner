@@ -22,4 +22,6 @@ CUDA_CFLAGS="-O3 -lineno -Xcompiler -Wall -D_FORCE_INLINES" ./configure CXXFLAGS
 
 make -j$(nproc)
 cp ccminer ../ccminer-run
+mkdir -p ~/minerAutoSwitch/bin/${1}
+cp ccminer ~/minerAutoSwitch/bin/${1}/ccminer-run
 cd -
