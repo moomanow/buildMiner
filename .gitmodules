@@ -40,3 +40,9 @@
 [submodule "todd1251/ccminer"]
 	path = todd1251/ccminer
 	url = https://github.com/todd1251/ccminer-x16r.git
+[submodule "hsr/ccminer"]
+	path = hsr/ccminer
+	url = https://github.com/nemosminer/ccminer-hcash.git
+[submodule "ocminer/ccminer"]
+	path = ocminer/ccminer
+	url = https://github.com/ocminer/suprminer.git
