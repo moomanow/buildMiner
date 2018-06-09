@@ -1,4 +1,4 @@
-lias setup='bash ~/setup.sh'
+alias setup='bash ~/setup.sh'
 alias nvidia-overclock='bash ~/nvidia-overclock.sh'
 alias reboot='sudo reboot'
 alias shutdown='sudo shutdown -h now'
