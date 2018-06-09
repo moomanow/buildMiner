@@ -15,7 +15,7 @@ edit disk size
     First, shut down your VM and increase the disk size.
     Then start your VM and go to the console.
     
-    # fdisk -u /dev/xvda
+    # fdisk -u /dev/sda
     (-u shows sectors instead of cylinders. This is important)
     
     (Make a note of the start sector of the LVM partition)
@@ -75,3 +75,34 @@ edit disk size
     (resize the file system)
     # resize2fs [LV Name] 
     # reboot
+    
+    
+command
+
+    fdisk -u /dev/sda
+    Command (m for help): p
+    Command (m for help): d
+    Partition number (1,2,5, default 5): 2
+    Command (m for help): p
+    Command (m for help): n
+    Select (default p): e
+    Partition number (2-4, default 2):{enter}
+    First sector (999424-234455039, default 999424): {enter}
+    Last sector, +sectors or +size{K,M,G,T,P} (999424-234455039, default 234455039): {enter}
+    Command (m for help): n
+    First sector (1001472-234455039, default 1001472): {enter}
+    Last sector, +sectors or +size{K,M,G,T,P} (1001472-234455039, default 234455039): {enter}
+    
+    Command (m for help): t
+    Partition number (1,2,5, default 5): 
+    Partition type (type L to list all types): 8e
+    Command (m for help): w (write)
+    reboot
+    pvresize /dev/sda5
+    vgdisplay
+    lvdisplay 
+    lvresize -l +100%FREE /dev/xserver-vg/root
+    resize2fs /dev/xserver-vg/root
+
+    
+     
