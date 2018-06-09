@@ -165,5 +165,8 @@ do
 #~/miner/djm34/ccminer-run -r 0 -i 20 -a lyra2z -o stratum+tcp://asia.lyra2z-hub.miningpoolhub.com:12025 -u $MY_ADDRESS_POOL_HUB.$MY_RIG -p x --cpu-priority 5
 #~/miner/djm34/ccminer-run -i 20 -a lyra2z -o stratum+tcp://asia.lyra2z-hub.miningpoolhub.com:20581 -u $MY_ADDRESS_POOL_HUB.$MY_RIG -p x --cpu-priority 5
 ##############################
-~/miner/ocminer/ccminer-run -r 0 -a x16r -o stratum+tcp://rvn.suprnova.cc:6667 -u $MY_ADDRESS_POOL_SUPRNOVA.$MY_RIG -p x
-done
+#~/buildMiner/ocminer/ccminer-run -r 0 -a x16r -o stratum+tcp://rvn.suprnova.cc:6667 -u $MY_ADDRESS_POOL_SUPRNOVA.$MY_RIG -p x
+~/buildMiner/ocminer/ccminer-run -r 0 -a x16r -o stratum+tcp://stratum.gos.cx:3639 -u $MY_ADDRESS_XMN.$MY_RIG -p c=XMN
+#~/buildMiner/alexis78/ccminer-run -r 0 -i 20  -a x17 -o stratum+tcp://xvg-x17.suprnova.cc:7477 -u $MY_ADDRESS_POOL_SUPRNOVA.$MY_RIG -p x
+#~/buildMiner/alexis78/ccminer-run -R 5 -i 22 -a c11 -o stratum+tcp://pool.bsod.pw:2143 -u $MY_ADDRESS_SPD.$MY_RIG -p c=SPD
+#~/buildMiner/alexis78/ccminer-run -r 0 -i 28  -a neoscrypt -o stratum+tcp://neoscrypt.mine.zpool.ca:4233 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTCdone
