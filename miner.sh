@@ -90,80 +90,80 @@ do
         echo "Press [CTRL+C] to stop.."
         sleep 1
 
-#~/buildMiner/klaust/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://pool.bsod.pw:2030 -u $MY_ADDRESS_RAP.$MY_RIG -p c=RAP -R 5
-#~/buildMiner/klaust/ccminer-run -i 20 -r 0  -a neoscrypt -o stratum+tcp://pool.bsod.pw:1997 -u $MY_ADDRESS_GOA.$MY_RIG -p c=GOA
-#~/buildMiner/klaust/ccminer-run -r 0 -i 20 -a neoscrypt -o stratum+tcp://pool1.phi-phi-pool.net:4233 -u $MY_ADDRESS_PXC.$MY_RIG -p c=PXC
-#~/buildMiner/tpruvot/ccminer-run -r 0 -i 26.2 -a lyra2z  -o stratum+tcp://pool1.phi-phi-pool.net:4233 -u $MY_ADDRESS_PXC.$MY_RIG -p c=PXC
-#~/buildMiner/tpruvot/ccminer-run -r 0  -a neoscrypt -o stratum+tcp://pool.bsod.pw:1997 -u $MY_ADDRESS_GOA.$MY_RIG -p c=GOA
-#~/buildMiner/alexis78/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://pool.bsod.pw:2030 -u $MY_ADDRESS_RAP.$MY_RIG -p c=RAP -R 5
-#~/buildMiner/alexis78/ccminer-run -r 0 -a c11 -o stratum+tcp://hashfaster.com:3573 -u $MY_ADDRESS_SPD.$MY_RIG -p c=SPD
-#~/buildMiner/tpruvot/ccminer-run -r 0 -a lyra2z -o stratum+tcp://pool.bsod.pw:2132 -u $MY_ADDRESS_PBS.$MY_RIG -p c=PBS
-#~/buildMiner/djm34/ccminer-msvc2015/ccminer -i 19 -r 0 -a lyra2z -o stratum+tcp://pool.bsod.pw:2132 -u $MY_ADDRESS_PBS.$MY_RIG -p c=PBS
-#~/buildMiner/tpruvot/ccminer-run -r 0 -a skein -o stratum+tcp://pool.bsod.pw:2134 -u $MY_ADDRESS_ARGO.$MY_RIG -p c=ARGO
-#~/buildMiner/nemosminer/ccminer-run -r 0 -a skein -o stratum+tcp://pool.bsod.pw:2134 -u $MY_ADDRESS_ARGO.$MY_RIG -p c=ARGO
-#~/buildMiner/klaust/ccminer-run -r 0 -a skein -o stratum+tcp://pool.bsod.pw:2134 -u $MY_ADDRESS_ARGO.$MY_RIG -p c=ARGO
-#~/buildMiner/klaust/ccminer-run -i 20  -a neoscrypt -o stratum+tcp://pool.bsod.pw:1995 -u $MY_ADDRESS_SPK.$MY_RIG -p c=SPK -R 5
-#~/buildMiner/klaust/ccminer-run -i 20  -a neoscrypt -o stratum+tcp://pool.bsod.pw:2140 -u $MY_ADDRESS_DIN.$MY_RIG -p c=DIN -R 5
-#~/buildMiner/klaust/ccminer-run -i 20  -a neoscrypt -o stratum+tcp://lycheebit.com:4233 -u $MY_ADDRESS_NIHL.$MY_RIG -p c=NIHL,d=512
-#~/buildMiner/klaust/ccminer-run -i 20  -a neoscrypt -o stratum+tcp://yiimp.fatpanda.club:4233 -u $MY_ADDRESS_NIHL.$MY_RIG -p c=NIHL,d=512
-#~/buildMiner/klaust/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://tiny-pool.com:4233 -u $MY_ADDRESS_CROP.$MY_RIG -p c=CROP,d=512
-#~/buildMiner/klaust/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://hashfaster.com:4233 -u $MY_ADDRESS_CROP.Rig1080 -p c=CROP,d=1024
-#~/buildMiner/klaust/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://yiimp.gos.cx:4237 -u $MY_ADDRESS_NIHL.Rig1070 -p c=NIHL
-#~/buildMiner/klaust/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://tiny-pool.com:4234 -u $MY_ADDRESS_END.$MY_RIG -p c=END
-#~/buildMiner/klaust/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://pool1.phi-phi-pool.com:4233 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
-#~/buildMiner/klaust/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://tiny-pool.com:4233 -u $MY_ADDRESS_CROP.Rig1080 -p c=CROP,d=1048
-#~/buildMiner/klaust/ccminer-run -i 20  -a neoscrypt -o stratum+tcp://mpos-pools.com:3609 -u viatoro.$MY_RIG -p password
-#~/buildMiner/klaust/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://eu1.altminer.net:10005 -u $MY_ADDRESS_ONEX.$MY_RIG -p c=ONEX
-#~/buildMiner/tpruvot/ccminer-run  -a skunk -o stratum+tcp://pool.bsod.pw:1998 -u $MY_ADDRESS_MUN.$MY_RIG -p c=MUN -R 5
-#~/buildMiner/216k155/ccminer-run -R 5 -i 22 -a nist5 -o stratum+tcp://pool.bsod.pw:3833 -u $MY_ADDRESS_BWK.$MY_RIG -p c=BWK --cpu-priority 5
-#~/buildMiner/MSFTserver/ccminer-run -R 5 -i 23 -a phi -o stratum+tcp://kwchmining.com:6667 -u $MY_ADDRESS_FLM.$MY_RIG -p c=FLM --cpu-priority 5
+#~/miner/klaust/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://pool.bsod.pw:2030 -u $MY_ADDRESS_RAP.$MY_RIG -p c=RAP -R 5
+#~/miner/klaust/ccminer-run -i 20 -r 0  -a neoscrypt -o stratum+tcp://pool.bsod.pw:1997 -u $MY_ADDRESS_GOA.$MY_RIG -p c=GOA
+#~/miner/klaust/ccminer-run -r 0 -i 20 -a neoscrypt -o stratum+tcp://pool1.phi-phi-pool.net:4233 -u $MY_ADDRESS_PXC.$MY_RIG -p c=PXC
+#~/miner/tpruvot/ccminer-run -r 0 -i 26.2 -a lyra2z  -o stratum+tcp://pool1.phi-phi-pool.net:4233 -u $MY_ADDRESS_PXC.$MY_RIG -p c=PXC
+#~/miner/tpruvot/ccminer-run -r 0  -a neoscrypt -o stratum+tcp://pool.bsod.pw:1997 -u $MY_ADDRESS_GOA.$MY_RIG -p c=GOA
+#~/miner/alexis78/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://pool.bsod.pw:2030 -u $MY_ADDRESS_RAP.$MY_RIG -p c=RAP -R 5
+#~/miner/alexis78/ccminer-run -r 0 -a c11 -o stratum+tcp://hashfaster.com:3573 -u $MY_ADDRESS_SPD.$MY_RIG -p c=SPD
+#~/miner/tpruvot/ccminer-run -r 0 -a lyra2z -o stratum+tcp://pool.bsod.pw:2132 -u $MY_ADDRESS_PBS.$MY_RIG -p c=PBS
+#~/miner/djm34/ccminer-msvc2015/ccminer -i 19 -r 0 -a lyra2z -o stratum+tcp://pool.bsod.pw:2132 -u $MY_ADDRESS_PBS.$MY_RIG -p c=PBS
+#~/miner/tpruvot/ccminer-run -r 0 -a skein -o stratum+tcp://pool.bsod.pw:2134 -u $MY_ADDRESS_ARGO.$MY_RIG -p c=ARGO
+#~/miner/nemosminer/ccminer-run -r 0 -a skein -o stratum+tcp://pool.bsod.pw:2134 -u $MY_ADDRESS_ARGO.$MY_RIG -p c=ARGO
+#~/miner/klaust/ccminer-run -r 0 -a skein -o stratum+tcp://pool.bsod.pw:2134 -u $MY_ADDRESS_ARGO.$MY_RIG -p c=ARGO
+#~/miner/klaust/ccminer-run -i 20  -a neoscrypt -o stratum+tcp://pool.bsod.pw:1995 -u $MY_ADDRESS_SPK.$MY_RIG -p c=SPK -R 5
+#~/miner/klaust/ccminer-run -i 20  -a neoscrypt -o stratum+tcp://pool.bsod.pw:2140 -u $MY_ADDRESS_DIN.$MY_RIG -p c=DIN -R 5
+#~/miner/klaust/ccminer-run -i 20  -a neoscrypt -o stratum+tcp://lycheebit.com:4233 -u $MY_ADDRESS_NIHL.$MY_RIG -p c=NIHL,d=512
+#~/miner/klaust/ccminer-run -i 20  -a neoscrypt -o stratum+tcp://yiimp.fatpanda.club:4233 -u $MY_ADDRESS_NIHL.$MY_RIG -p c=NIHL,d=512
+#~/miner/klaust/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://tiny-pool.com:4233 -u $MY_ADDRESS_CROP.$MY_RIG -p c=CROP,d=512
+#~/miner/klaust/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://hashfaster.com:4233 -u $MY_ADDRESS_CROP.Rig1080 -p c=CROP,d=1024
+#~/miner/klaust/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://yiimp.gos.cx:4237 -u $MY_ADDRESS_NIHL.Rig1070 -p c=NIHL
+#~/miner/klaust/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://tiny-pool.com:4234 -u $MY_ADDRESS_END.$MY_RIG -p c=END
+#~/miner/klaust/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://pool1.phi-phi-pool.com:4233 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/klaust/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://tiny-pool.com:4233 -u $MY_ADDRESS_CROP.Rig1080 -p c=CROP,d=1048
+#~/miner/klaust/ccminer-run -i 20  -a neoscrypt -o stratum+tcp://mpos-pools.com:3609 -u viatoro.$MY_RIG -p password
+#~/miner/klaust/ccminer-run -i 20 -a neoscrypt -o stratum+tcp://eu1.altminer.net:10005 -u $MY_ADDRESS_ONEX.$MY_RIG -p c=ONEX
+#~/miner/tpruvot/ccminer-run  -a skunk -o stratum+tcp://pool.bsod.pw:1998 -u $MY_ADDRESS_MUN.$MY_RIG -p c=MUN -R 5
+#~/miner/216k155/ccminer-run -R 5 -i 22 -a nist5 -o stratum+tcp://pool.bsod.pw:3833 -u $MY_ADDRESS_BWK.$MY_RIG -p c=BWK --cpu-priority 5
+#~/miner/MSFTserver/ccminer-run -R 5 -i 23 -a phi -o stratum+tcp://kwchmining.com:6667 -u $MY_ADDRESS_FLM.$MY_RIG -p c=FLM --cpu-priority 5
 
-#~/buildMiner/216k155/ccminer-run -i 22 -a lyra2v2 -o stratum+tcp://stratum.gos.cx:4502 -u $MY_ADDRESS_ABS.$MY_RIG -p c=ABS,d=128
-#~/buildMiner/alexis78/ccminer-run -a lyra2v2 -o stratum+tcp://stratum.gos.cx:4502 -u $MY_ADDRESS_ABS.$MY_RIG -p c=ABS,d=128
-#~/buildMiner/tpruvot/ccminer-run -r 0 -i 22 -a phi -o stratum+tcp://pool.bsod.pw:6667 -u $MY_ADDRESS_LUX.$MY_RIG -p c=LUX
-#~/buildMiner/tpruvot/ccminer-run -r 0 -i 22  -a lyra2v2 -o stratum+tcp://pool1.phi-phi-pool.com:4533 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
-#~/buildMiner/tpruvot/ccminer-run -r 0 -i 28 -a neoscrypt -o stratum+tcp://stratum.gos.cx:4241 -u $MY_ADDRESS_ARHM.$MY_RIG -p c=ARHM
-#~/buildMiner/klaust/ccminer-run -r 0 -i 23 -a neoscrypt -o stratum+tcp://stratum.gos.cx:4241 -u $MY_ADDRESS_ARHM.$MY_RIG -p c=ARHM
-#~/buildMiner/tpruvot/ccminer-run -r 0 -a phi -o stratum+tcp://eu2.bsod.pw:6667 -u $MY_ADDRESS_LUX.$MY_RIG -p c=LUX
-#~/buildMiner/alexis78/ccminer-run -a lyra2v2 -o stratum+tcp://stratum.gos.cx:4501 -u $MY_ADDRESS_KREDS.$MY_RIG -p c=KREDS,d=128
-#~/buildMiner/tpruvot/ccminer-run -r 0 -i 22  -a lyra2v2 -o stratum+tcp://stratum.gos.cx:4502 -u $MY_ADDRESS_ABS.$MY_RIG -p c=ABS,d=128
-#~/buildMiner/alexis78/ccminer-run -r 0 -a skein -o stratum+tcp://pool.bsod.pw:2151 -u $MY_ADDRESS_FRM.$MY_RIG -p c=FRM
+#~/miner/216k155/ccminer-run -i 22 -a lyra2v2 -o stratum+tcp://stratum.gos.cx:4502 -u $MY_ADDRESS_ABS.$MY_RIG -p c=ABS,d=128
+#~/miner/alexis78/ccminer-run -a lyra2v2 -o stratum+tcp://stratum.gos.cx:4502 -u $MY_ADDRESS_ABS.$MY_RIG -p c=ABS,d=128
+#~/miner/tpruvot/ccminer-run -r 0 -i 22 -a phi -o stratum+tcp://pool.bsod.pw:6667 -u $MY_ADDRESS_LUX.$MY_RIG -p c=LUX
+#~/miner/tpruvot/ccminer-run -r 0 -i 22  -a lyra2v2 -o stratum+tcp://pool1.phi-phi-pool.com:4533 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/tpruvot/ccminer-run -r 0 -i 28 -a neoscrypt -o stratum+tcp://stratum.gos.cx:4241 -u $MY_ADDRESS_ARHM.$MY_RIG -p c=ARHM
+#~/miner/klaust/ccminer-run -r 0 -i 23 -a neoscrypt -o stratum+tcp://stratum.gos.cx:4241 -u $MY_ADDRESS_ARHM.$MY_RIG -p c=ARHM
+#~/miner/tpruvot/ccminer-run -r 0 -a phi -o stratum+tcp://eu2.bsod.pw:6667 -u $MY_ADDRESS_LUX.$MY_RIG -p c=LUX
+#~/miner/alexis78/ccminer-run -a lyra2v2 -o stratum+tcp://stratum.gos.cx:4501 -u $MY_ADDRESS_KREDS.$MY_RIG -p c=KREDS,d=128
+#~/miner/tpruvot/ccminer-run -r 0 -i 22  -a lyra2v2 -o stratum+tcp://stratum.gos.cx:4502 -u $MY_ADDRESS_ABS.$MY_RIG -p c=ABS,d=128
+#~/miner/alexis78/ccminer-run -r 0 -a skein -o stratum+tcp://pool.bsod.pw:2151 -u $MY_ADDRESS_FRM.$MY_RIG -p c=FRM
 
-#~/buildMiner/tpruvot/ccminer-run -r 0 -a tribus -o stratum+tcp://stratum.gos.cx:8500 -u $MY_ADDRESS_SCRIV.$MY_RIG -p c=SCRIV
-#~/buildMiner/tpruvot/ccminer-run -r 0 -a tribus -o stratum+tcp://eu1.arcpool.com:1702 -u $MY_ADDRESS_VRT.$MY_RIG -p c=VRT
-#~/buildMiner/alexis78/ccminer-run -r 0 -a skein -o stratum+tcp://stratum.gos.cx:4937 -u $MY_ADDRESS_ENIX.$MY_RIG -p c=ENIX
-#~/buildMiner/tpruvot/ccminer-run -R 5  -a hmq1725 -o stratum+tcp://pool.cryptopros.us:3747 -u $MY_ADDRESS_ESP.$MY_RIG -p c=ESP --cpu-priority 5
-#~/buildMiner/tpruvot/ccminer-run -R 5 -i 20  -a hmq1725 -o stratum+tcp://hmq1725.mine.zpool.ca:3747 -u $MY_ADDRESS_ESP -p c=ESP,d=6134 --cpu-priority 5
-#~/buildMiner/MSFTserver/ccminer-run -R 5 -i 20  -a x16r -o stratum+tcp://ravenminer.com:3366 -u $MY_ADDRESS_RVN.$MY_RIG -p c=RVN
+#~/miner/tpruvot/ccminer-run -r 0 -a tribus -o stratum+tcp://stratum.gos.cx:8500 -u $MY_ADDRESS_SCRIV.$MY_RIG -p c=SCRIV
+#~/miner/tpruvot/ccminer-run -r 0 -a tribus -o stratum+tcp://eu1.arcpool.com:1702 -u $MY_ADDRESS_VRT.$MY_RIG -p c=VRT
+#~/miner/alexis78/ccminer-run -r 0 -a skein -o stratum+tcp://stratum.gos.cx:4937 -u $MY_ADDRESS_ENIX.$MY_RIG -p c=ENIX
+#~/miner/tpruvot/ccminer-run -R 5  -a hmq1725 -o stratum+tcp://pool.cryptopros.us:3747 -u $MY_ADDRESS_ESP.$MY_RIG -p c=ESP --cpu-priority 5
+#~/miner/tpruvot/ccminer-run -R 5 -i 20  -a hmq1725 -o stratum+tcp://hmq1725.mine.zpool.ca:3747 -u $MY_ADDRESS_ESP -p c=ESP,d=6134 --cpu-priority 5
+#~/miner/MSFTserver/ccminer-run -R 5 -i 20  -a x16r -o stratum+tcp://ravenminer.com:3366 -u $MY_ADDRESS_RVN.$MY_RIG -p c=RVN
 #####################################################################################
-#~/buildMiner/klaust/ccminer-run -i 17 -a neoscrypt -o stratum+tcp://pool1.phi-phi-pool.com:4233 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
-#~/buildMiner/ccminer-xevan/ccminer-run -r 0 -a xevan -o stratum+tcp://pool1.phi-phi-pool.com:3739 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
-#~/buildMiner/tpruvot/ccminer-run -r 0  -a x17 -o stratum+tcp://pool1.phi-phi-pool.com:3737 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
-#~/buildMiner/krnlx/ccminer-run -r 0 -a xevan -o stratum+tcp://pool1.phi-phi-pool.com:3739 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
-#~/buildMiner/tpruvot/ccminer-run -r 0  -a keccakc -o stratum+tcp://pool1.phi-phi-pool.com:5134 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
-#~/buildMiner/tpruvot/ccminer-run -r 0 -i 28  -a neoscrypt -o stratum+tcp://pool1.phi-phi-pool.com:4233 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
-#~/buildMiner/tpruvot/ccminer-run -r 0 -i 28  -a neoscrypt -o stratum+tcp://neoscrypt.mine.zpool.ca:4233 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
-#~/buildMiner/klaust/ccminer-run -i 23 -r0 -a neoscrypt -o stratum+tcp://neoscrypt.mine.zpool.ca:4233 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
-#~/buildMiner/alexis78/ccminer-run -r 0 -a c11 -o stratum+tcp://pool1.phi-phi-pool.com:3573 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
-#~/buildMiner/alexis78/ccminer-run -r 0  -a nist5 -o stratum+tcp://pool1.phi-phi-pool.com:3833 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
-#~/buildMiner/alexis78/ccminer-run -r 0 -a nist5 -o stratum+tcp://nist5.mine.zpool.ca:3833 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
-#~/buildMiner/ccminer-xevan/ccminer-run -r 0 -a nist5 -o stratum+tcp://nist5.mine.zpool.ca:3833 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
-#~/buildMiner/tpruvot/ccminer-run -r 0 -i 22  -a lyra2v2 -o stratum+tcp://pool1.phi-phi-pool.com:4533 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
-#~/buildMiner/tpruvot/ccminer-run -r 0 -i 22  -a lyra2v2 -o stratum+tcp://pool1.phi-phi-pool.com:4533 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
-#~/buildMiner/tpruvot/ccminer-run -r 0  -a tribus -o stratum+tcp://pool1.phi-phi-pool.com:8533 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/klaust/ccminer-run -i 17 -a neoscrypt -o stratum+tcp://pool1.phi-phi-pool.com:4233 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/ccminer-xevan/ccminer-run -r 0 -a xevan -o stratum+tcp://pool1.phi-phi-pool.com:3739 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/tpruvot/ccminer-run -r 0  -a x17 -o stratum+tcp://pool1.phi-phi-pool.com:3737 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/krnlx/ccminer-run -r 0 -a xevan -o stratum+tcp://pool1.phi-phi-pool.com:3739 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/tpruvot/ccminer-run -r 0  -a keccakc -o stratum+tcp://pool1.phi-phi-pool.com:5134 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/tpruvot/ccminer-run -r 0 -i 28  -a neoscrypt -o stratum+tcp://pool1.phi-phi-pool.com:4233 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/tpruvot/ccminer-run -r 0 -i 28  -a neoscrypt -o stratum+tcp://neoscrypt.mine.zpool.ca:4233 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/klaust/ccminer-run -i 23 -r0 -a neoscrypt -o stratum+tcp://neoscrypt.mine.zpool.ca:4233 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/alexis78/ccminer-run -r 0 -a c11 -o stratum+tcp://pool1.phi-phi-pool.com:3573 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/alexis78/ccminer-run -r 0  -a nist5 -o stratum+tcp://pool1.phi-phi-pool.com:3833 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/alexis78/ccminer-run -r 0 -a nist5 -o stratum+tcp://nist5.mine.zpool.ca:3833 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/ccminer-xevan/ccminer-run -r 0 -a nist5 -o stratum+tcp://nist5.mine.zpool.ca:3833 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/tpruvot/ccminer-run -r 0 -i 22  -a lyra2v2 -o stratum+tcp://pool1.phi-phi-pool.com:4533 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/tpruvot/ccminer-run -r 0 -i 22  -a lyra2v2 -o stratum+tcp://pool1.phi-phi-pool.com:4533 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
+#~/miner/tpruvot/ccminer-run -r 0  -a tribus -o stratum+tcp://pool1.phi-phi-pool.com:8533 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC
 
-#~/buildMiner/MSFTserver/ccminer-run -R 5 -i 23 -a phi -o stratum+tcp://phi.mine.ahashpool.com:8333 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC --cpu-priority 5
-#~/buildMiner/216k155/ccminer-run -R 5 -a x17 -o stratum+tcp://x17.mine.ahashpool.com:3737 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC --cpu-priority 5
+#~/miner/MSFTserver/ccminer-run -R 5 -i 23 -a phi -o stratum+tcp://phi.mine.ahashpool.com:8333 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC --cpu-priority 5
+#~/miner/216k155/ccminer-run -R 5 -a x17 -o stratum+tcp://x17.mine.ahashpool.com:3737 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTC --cpu-priority 5
 ##########################################
 
 #~/claymore-dual-miner/ethdcrminer64 -epool us-east.ethash-hub.miningpoolhub.com:12020 -ewal $MY_ADDRESS_POOL_HUB.$MY_RIG -eworker $MY_ADDRESS_POOL_HUB.$MY_RIG -esm 3 -epsw x -allcoins 1 -retrydelay -1
 #~/ethereum-mining/ethminer/build/ethminer/ethminer --farm-retries 0 -U  -S us-east.ethash-hub.miningpoolhub.com:12020 -O $MY_ADDRESS_POOL_HUB.$MY_RIG:x -FS exit
 #~/bminer-v6.1.0-7ea8bbe/bminer -uri stratum+ssl://$MY_ADDRESS_POOL_HUB.$MY_RIG@us-east.equihash-hub.miningpoolhub.com:12023 -max-network-failures=0 -watchdog=false
-#~/buildMiner/tpruvot/ccminer-run -r 0 -a myr-gr -o stratum+tcp://hub.miningpoolhub.com:12005 -u $MY_ADDRESS_POOL_HUB.$MY_RIG -p x
-#~/buildMiner/alexis78/ccminer-run -r 0 -a skein -o stratum+tcp://hub.miningpoolhub.com:12016 -u $MY_ADDRESS_POOL_HUB.$MY_RIG -p x
-#~/buildMiner/alexis78/ccminer-run -r 0 -a lyra2v2 -o stratum+tcp://hub.miningpoolhub.com:12018 -u $MY_ADDRESS_POOL_HUB.$MY_RIG -p x
-#~/buildMiner/djm34/ccminer-run -r 0 -i 20 -a lyra2z -o stratum+tcp://asia.lyra2z-hub.miningpoolhub.com:12025 -u $MY_ADDRESS_POOL_HUB.$MY_RIG -p x --cpu-priority 5
-#~/buildMiner/djm34/ccminer-run -i 20 -a lyra2z -o stratum+tcp://asia.lyra2z-hub.miningpoolhub.com:20581 -u $MY_ADDRESS_POOL_HUB.$MY_RIG -p x --cpu-priority 5
+#~/miner/tpruvot/ccminer-run -r 0 -a myr-gr -o stratum+tcp://hub.miningpoolhub.com:12005 -u $MY_ADDRESS_POOL_HUB.$MY_RIG -p x
+#~/miner/alexis78/ccminer-run -r 0 -a skein -o stratum+tcp://hub.miningpoolhub.com:12016 -u $MY_ADDRESS_POOL_HUB.$MY_RIG -p x
+#~/miner/alexis78/ccminer-run -r 0 -a lyra2v2 -o stratum+tcp://hub.miningpoolhub.com:12018 -u $MY_ADDRESS_POOL_HUB.$MY_RIG -p x
+#~/miner/djm34/ccminer-run -r 0 -i 20 -a lyra2z -o stratum+tcp://asia.lyra2z-hub.miningpoolhub.com:12025 -u $MY_ADDRESS_POOL_HUB.$MY_RIG -p x --cpu-priority 5
+#~/miner/djm34/ccminer-run -i 20 -a lyra2z -o stratum+tcp://asia.lyra2z-hub.miningpoolhub.com:20581 -u $MY_ADDRESS_POOL_HUB.$MY_RIG -p x --cpu-priority 5
 ##############################
-~/buildMiner/ocminer/ccminer-run -r 0 -a x16r -o stratum+tcp://rvn.suprnova.cc:6667 -u $MY_ADDRESS_POOL_SUPRNOVA.$MY_RIG -p x
+~/miner/ocminer/ccminer-run -r 0 -a x16r -o stratum+tcp://rvn.suprnova.cc:6667 -u $MY_ADDRESS_POOL_SUPRNOVA.$MY_RIG -p x
 done
