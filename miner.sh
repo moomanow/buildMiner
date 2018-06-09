@@ -170,3 +170,4 @@ do
 #~/miner/alexis78/ccminer-run -r 0 -i 20  -a x17 -o stratum+tcp://xvg-x17.suprnova.cc:7477 -u $MY_ADDRESS_POOL_SUPRNOVA.$MY_RIG -p x
 #~/miner/alexis78/ccminer-run -R 5 -i 22 -a c11 -o stratum+tcp://pool.bsod.pw:2143 -u $MY_ADDRESS_SPD.$MY_RIG -p c=SPD
 #~/miner/alexis78/ccminer-run -r 0 -i 28  -a neoscrypt -o stratum+tcp://neoscrypt.mine.zpool.ca:4233 -u $MY_ADDRESS_BTC.$MY_RIG -p c=BTCdone
+done
