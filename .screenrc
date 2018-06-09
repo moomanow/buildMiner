@@ -21,9 +21,9 @@ screen -t top   htop
 screen -t cpu   watch -n 5 "sensors"
 #screen -t smi   watch -n 5 "nvidia-smi"
 #screen -t gpu   watch -n 5 "nvidia-smi --format=csv --query-gpu=name,power.draw,fan.speed,temperature.gpu,clocks.video,clocks.mem"
-screen -t line  bash "/home/prospector/buildMiner/LineNotify.sh"
+screen -t line  bash "/home/prospector/miner/LineNotify.sh"
 screen          bash
-screen -t miner bash "/home/prospector/buildMiner/miner.sh"
+screen -t miner bash "/home/prospector/miner.sh"
 #screen -t miner bash "/home/prospector/minerAutoSwitch/start.sh"
 
 shell bash
