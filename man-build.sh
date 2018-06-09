@@ -9,7 +9,8 @@ if [ $? -ne 0 ]; then
 fi
 cd ${1}/ccminer 
 
-make -j$(nproc)
+#make -j$(nproc)
+./build.sh
 cp ccminer ../ccminer-run
 mkdir -p ~/miner/${1}
 cp ccminer ~/miner/${1}/ccminer-run
