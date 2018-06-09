@@ -6,9 +6,6 @@ Download the and the setup.sh files:
 
     curl -o setup.sh https://raw.githubusercontent.com/moomanow/buildMiner/master/setup.sh; chmod a+x ./setup.sh
 
-    curl -o .bash_aliases https://raw.githubusercontent.com/moomanow/buildMiner/master/.bash_aliases
-
-    curl -o .screenrc https://raw.githubusercontent.com/moomanow/buildMiner/master/.screenrc
 
 edit disk size
 
