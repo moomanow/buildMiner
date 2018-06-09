@@ -1,6 +1,10 @@
 #! /bin/sh
+mkdir -p ~/miner
 curl -o ~/.bash_aliases https://raw.githubusercontent.com/moomanow/buildMiner/master/.bash_aliases
 curl -o ~/.screenrc https://raw.githubusercontent.com/moomanow/buildMiner/master/.screenrc
+curl -o ~/miner.sh https://raw.githubusercontent.com/moomanow/buildMiner/master/miner.sh
+curl -o ~/miner/LineNotify.sh https://raw.githubusercontent.com/moomanow/buildMiner/master/LineNotify.sh
+curl -o ~/settings.conf https://raw.githubusercontent.com/moomanow/buildMiner/master/settings.conf
 git clone https://github.com/moomanow/buildMiner.git ~/buildMiner
 sudo apt-get -y install libssl-dev
 sudo apt-get -y install bc
